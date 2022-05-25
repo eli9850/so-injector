@@ -1,0 +1,33 @@
+*.o
+*.obj
+*.bin
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.elf
+
+**/cmake-build-debug
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/install_manifest.txt
+**/CMakeFiles/
+**/CTestTestfile.cmake
+**/Makefile
+**/*.cbp
+**/CMakeScripts
+**/compile_commands.json
+
+.idea/*.xml
+
+include/*
+lib/*
+bin/*
