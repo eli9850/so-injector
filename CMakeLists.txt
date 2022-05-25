@@ -5,3 +5,5 @@ project(Injector)
 
 add_subdirectory(basic-elf)
 add_subdirectory(basic-so)
+add_subdirectory(so-injector)
+add_subdirectory(so-injector-sc)
