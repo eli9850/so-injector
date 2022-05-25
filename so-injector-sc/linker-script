@@ -1,0 +1,17 @@
+SECTIONS
+{
+/DISCARD/ : {
+  *(.note.gnu.property)
+  *(.eh_frame)
+  *(.interp)
+  *(.note.gnu.build-id)
+  *(.dynsym)
+  *(.dynstr)
+  *(.gnu.hash)
+  *(.eh_frame_hdr)
+ }
+  . = 0x10000;
+  .bss : ALIGN(0) { *(.bss) }
+  .text : ALIGN(0) { *(.text.main) }
+
+}
