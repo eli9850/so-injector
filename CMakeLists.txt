@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 3.22)
 project(Injector)
 
 add_subdirectory(basic-elf)
-
+add_subdirectory(basic-so)
